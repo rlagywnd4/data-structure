@@ -1,5 +1,5 @@
 export class Stack { // 클래스를 만들어서 다른 함수는 사용하지 못하도록 함
-    arr = [];
+    arr = []; // 사기같으면 연결리스트를 사용하면 됨
 
     push(value) { //length 반환
         return this.arr.push(value);
