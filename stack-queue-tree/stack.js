@@ -10,7 +10,7 @@ export class Stack { // 클래스를 만들어서 다른 함수는 사용하지 
     }
 
     top() {
-        return this.arr.at(-1);
+        return this.arr.at(-1); // this.length-1
     }
 
     get length() {
