@@ -1,6 +1,7 @@
 class LinkedList {
   length = 0;
   head = null; // 처음
+  tail = null; // 마지막
 
   add(value) {
     if (this.head) {
